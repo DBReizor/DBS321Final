@@ -2,6 +2,18 @@
 body{
     background-image: url(images/Background.jpg);
 }
+h1{
+    margin: 5px 0px;
+}
+
+#mainImage{
+    display: flex;
+    justify-content: center;
+}
+#mainImage img{
+    border: solid 5px gray;
+
+}
 
 #authors {
     display: flex;
@@ -14,9 +26,10 @@ body{
 .section p{
     font-size: 18px;
 }
-img{
+.sectionContent img{
     margin: 5px;
     border: solid 5px gray;
+    width: 200px;
 }
 .sectionContent{
     display: inline-flex;
